@@ -159,7 +159,10 @@
             <div>
               <h3 class="text-lg font-semibold text-teal-800">Bachelor of Nursing Science (B.N.Sc)</h3>
               <p class="text-md text-gray-700">Madonna University, Elele, Rivers State, Nigeria</p>
-              <p class="text-sm text-gray-500">2017 – 2022</p>
+              <div class="flex items-center">
+                <p class="text-sm text-gray-500">2017 – 2022</p>
+                <a href="certificate.jpeg" target="_blank" rel="noopener noreferrer" class="ml-4 text-sm text-teal-600 hover:underline font-medium">View</a>
+              </div>
             </div>
             <div>
               <h3 class="text-lg font-semibold text-teal-800">Senior Secondary School Certificate (SSCE)</h3>
@@ -224,12 +227,11 @@
     </section>
 
     <footer class="text-center mt-8 py-6 border-t text-sm text-gray-500 no-print">
-      © 2025 Okoye Annabel Adanna. All Rights Reserved.
+      © 2025 e6uka. All Rights Reserved.
     </footer>
   </div>
 
   <script>
-    // Small JS to reveal fade-in elements when in viewport for a nicer feel (no external lib)
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) entry.target.classList.add('visible');
@@ -237,7 +239,6 @@
     }, { threshold: 0.12 });
     document.querySelectorAll('.fade-in').forEach(el => {
       observer.observe(el);
-      // Also add visible class to trigger CSS animation once
       el.classList.add('visible');
     });
   </script>
