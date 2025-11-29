@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okoye Annabel Adanna | Nursing Portfolio</title>
+  <meta name="description" content="Professional Nursing Portfolio of Okoye Annabel Adanna — Registered Nurse & Midwife. Clinical experience, skills, education, and certifications." />
+  <meta name="keywords" content="Nurse, Midwife, RN, RM, Nursing Portfolio, Healthcare, Clinical Experience" />
+  <meta name="author" content="Okoye Annabel Adanna" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth; /* adds smooth scrolling */
+    }
+    body { font-family: 'Inter', sans-serif; }
+    section[id] { scroll-margin-top: 6rem; /* offset for fixed navbar */ }
+    /* subtle fade-in */
+    .fade-in { opacity: 0; transform: translateY(8px); animation: fadeInUp 600ms ease forwards; }
+    .fade-in.delay-1 { animation-delay: 120ms; }
+    .fade-in.delay-2 { animation-delay: 240ms; }
+    .fade-in.delay-3 { animation-delay: 360ms; }
+    @keyframes fadeInUp {
+      to { opacity: 1; transform: translateY(0); }
+    }
+    /* small hover lift */
+    .lift:hover { transform: translateY(-4px); transition: transform 180ms ease; }
+    /* floating navbar backdrop */
+    .nav-backdrop { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); background-color: rgba(255,255,255,0.6); }
+    /* print-friendly adjustments */
+    @media print {
+      .no-print { display:none; }
+      body { background: white !important; }
+    }
+  </style>
+</head>
+<body class="bg-gradient-to-br from-gray-50 to-teal-50 text-gray-800">
+
+  <!-- Floating Navbar (sticky) -->
+  <nav class="fixed w-full top-4 left-0 z-40 flex justify-center no-print">
+    <div class="w-full max-w-4xl mx-4 nav-backdrop rounded-full shadow-sm px-4 py-2 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <a href="#" class="text-teal-700 font-semibold">Okoye Annabel</a>
+        <div class="hidden md:flex items-center gap-4 text-sm text-gray-700">
+          <a href="#about" class="hover:underline">About</a>
+          <a href="#experience" class="hover:underline">Experience</a>
+          <a href="#experience" class="hover:underline">Certifications</a>
+          <a href="#education" class="hover:underline">Education</a>
+          <a href="#contact" class="hover:underline">Contact</a>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <a href="mailto:okoyeannabel17@gmail.com" class="text-sm text-gray-700 hover:text-teal-700">Email</a>
+        <a href="https://www.linkedin.com/in/annabel-okoye-818577299" target="_blank" rel="noopener noreferrer" class="text-sm text-teal-700 font-medium hover:underline">LinkedIn</a>
+        <a href="#contact" class="bg-teal-600 text-white px-3 py-1.5 rounded-full text-sm hover:bg-teal-700 lift">Contact</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mx-auto p-4 sm:p-6 lg:p-8 max-w-4xl">
+    <!-- Spacer to account for fixed navbar -->
+    <div class="h-20"></div>
+
+    <!-- Header Section -->
+    <header class="text-center mb-10 fade-in delay-1">
+      <h1 class="text-4xl sm:text-5xl font-bold text-teal-700">Okoye Annabel Adanna</h1>
+      <p class="mt-2 text-lg sm:text-xl text-gray-600">Registered Nurse | Specialty: Midwifery</p>
+      <div class="mt-4 flex justify-center items-center space-x-6 text-sm">
+        <a href="mailto:okoyeannabel17@gmail.com" class="text-teal-700 font-medium hover:underline">okoyeannabel17@gmail.com</a>
+        <a href="https://www.linkedin.com/in/annabel-okoye-818577299" target="_blank" rel="noopener noreferrer" class="text-teal-700 font-medium hover:underline">LinkedIn Profile</a>
+      </div>
+
+      <!-- Resume Download Button -->
+      <div class="mt-4">
+        <a href="/Okoye_Annabel_Adanna_Resume.pdf" download class="inline-block bg-teal-600 text-white px-5 py-2 rounded-lg shadow hover:bg-teal-700 text-sm lift no-print">
+          Download Resume (PDF)
+        </a>
+      </div>
+    </header>
+
+    <!-- Main boxed layout -->
+    <main class="grid grid-cols-1 md:grid-cols-3 gap-8 bg-white p-8 rounded-xl shadow-sm fade-in delay-2">
+      <!-- Left Column: Experience & Education (span 2) -->
+      <div class="md:col-span-2">
+        <!-- About -->
+        <section id="about" class="mb-8">
+          <h2 class="text-2xl font-bold border-b-2 border-teal-500 pb-2 mb-4">About Me</h2>
+          <p class="text-gray-700 leading-relaxed text-lg">I am a dedicated and compassionate Registered Nurse and Registered Midwife with strong experience in maternal and neonatal care, emergency response, mental health support, and community health education. I focus on patient-centered care, evidence-based practice, and clear communication with families and healthcare teams.</p>
+        </section>
+
+        <!-- Clinical Experiences -->
+        <section id="experience" class="mb-8">
+          <h2 class="text-2xl font-bold border-b-2 border-teal-500 pb-2 mb-6">Clinical Experiences</h2>
+          <div class="space-y-8">
+            <!-- Job 1 -->
+            <div class="mb-6 fade-in delay-3">
+              <h3 class="text-xl font-semibold text-teal-800">Registered Nurse</h3>
+              <p class="text-md font-medium text-gray-700">Life Care Turkish Hospital, Enugu</p>
+              <p class="text-sm text-gray-500 mb-2">May 2025 – Present</p>
+              <ul class="list-disc list-inside space-y-1.5 text-gray-700 leading-relaxed">
+                <li>Educating patients and families on treatment plans and post-discharge care.</li>
+                <li>Collaborating with multidisciplinary teams to ensure optimal patient outcomes.</li>
+                <li>Administering medications, monitoring vital signs, and providing wound care.</li>
+                <li>Delivering comprehensive nursing care in inpatient and outpatient settings.</li>
+              </ul>
+            </div>
+            <!-- Job 2 -->
+            <div class="mb-6 fade-in delay-3">
+              <h3 class="text-xl font-semibold text-teal-800">Intern Nurse</h3>
+              <p class="text-md font-medium text-gray-700">Garki Hospital, Abuja</p>
+              <p class="text-sm text-gray-500 mb-2">Feb 2024 – Mar 2025</p>
+              <ul class="list-disc list-inside space-y-1.5 text-gray-700 leading-relaxed">
+                <li>Conducted physical exams and recorded health histories.</li>
+                <li>Provided health education and personalized care interventions.</li>
+                <li>Administered medications and coordinated care across departments.</li>
+              </ul>
+            </div>
+            <!-- Job 3 -->
+            <div class="mb-6 fade-in delay-3">
+              <h3 class="text-xl font-semibold text-teal-800">Nurse/Midwife Assistant</h3>
+              <p class="text-md font-medium text-gray-700">Holy Rosary Specialist Hospital, Onitsha</p>
+              <p class="text-sm text-gray-500 mb-2">Dec 2022 – Jun 2023</p>
+              <ul class="list-disc list-inside space-y-1.5 text-gray-700 leading-relaxed">
+                <li>Assisted in prenatal assessments and childbirth procedures.</li>
+                <li>Educated new mothers on neonatal care and breastfeeding.</li>
+                <li>Administered medications and monitored postnatal patients.</li>
+              </ul>
+            </div>
+            <!-- Job 4 -->
+            <div class="mb-6 fade-in delay-3">
+              <h3 class="text-xl font-semibold text-teal-800">Community Health Nurse</h3>
+              <p class="text-md font-medium text-gray-700">Eti-Osa Community Health Center, Lagos</p>
+              <p class="text-sm text-gray-500 mb-2">Oct 2021 – Dec 2021</p>
+              <ul class="list-disc list-inside space-y-1.5 text-gray-700 leading-relaxed">
+                <li>Led public health talks on family planning and environmental hygiene.</li>
+                <li>Provided immunization and reproductive health services.</li>
+              </ul>
+            </div>
+            <!-- Job 5 -->
+            <div class="mb-6 fade-in delay-3">
+              <h3 class="text-xl font-semibold text-teal-800">Psychiatric Nurse Assistant</h3>
+              <p class="text-md font-medium text-gray-700">Neuropsychiatric Hospital, Enugu</p>
+              <p class="text-sm text-gray-500 mb-2">May 2020 – Sep 2020</p>
+              <ul class="list-disc list-inside space-y-1.5 text-gray-700 leading-relaxed">
+                <li>Supported mental health assessments and documentation.</li>
+                <li>Educated patients and families on post-treatment care.</li>
+                <li>Assisted in crisis intervention and recovery support.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="mt-6 mb-4">
+          <h2 class="text-2xl font-bold border-b-2 border-teal-500 pb-2 mb-4">Education</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="text-lg font-semibold text-teal-800">Bachelor of Nursing Science (B.N.Sc)</h3>
+              <p class="text-md text-gray-700">Madonna University, Elele, Rivers State, Nigeria</p>
+              <p class="text-sm text-gray-500">2017 – 2022</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-teal-800">Senior Secondary School Certificate (SSCE)</h3>
+              <p class="text-md text-gray-700">Federal Government Girls College, Abuloma</p>
+              <p class="text-sm text-gray-500">2012 – 2017</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Skills, Licensure, Core Values -->
+      <aside class="md:col-span-1 space-y-6">
+        <!-- Skills -->
+        <section id="skills">
+          <h2 class="text-xl font-bold mb-4">Skills</h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Communication</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">IV Therapy</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Patient-Centered Care</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Medication Administration</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Public Health Education</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Mental Health Support</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Team Collaboration</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Time Management</span>
+            <span class="bg-teal-100 text-teal-800 text-sm font-medium px-3 py-1 rounded-full hover:bg-teal-200 transition">Microsoft Office & Excel</span>
+          </div>
+        </section>
+
+        <!-- Licensure & Certifications -->
+        <section id="certifications">
+          <h2 class="text-xl font-bold mb-4">Licensure & Certifications</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-600">
+            <li>Registered Nurse (RN)</li>
+            <li>Registered Midwife (RM)</li>
+            <li>Bachelor of Nursing Science</li>
+          </ul>
+        </section>
+
+        <!-- Core Values -->
+        <section>
+          <h2 class="text-xl font-bold mb-4">Core Values</h2>
+          <ul class="list-disc list-inside space-y-1 text-gray-600">
+            <li>Compassion</li>
+            <li>Caring</li>
+            <li>Advocacy</li>
+            <li>Empathy</li>
+            <li>Collaboration</li>
+          </ul>
+        </section>
+      </aside>
+    </main>
+
+    <!-- Contact / Footer -->
+    <section id="contact" class="mt-8 bg-white p-6 rounded-xl shadow-sm fade-in delay-2">
+      <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+      <form action="https://formsubmit.co/okoyeannabel17@gmail.com" method="POST" class="grid md:grid-cols-2 gap-4">
+        <input required name="name" placeholder="Full Name" class="border px-4 py-3 rounded-lg" />
+        <input required name="email" type="email" placeholder="Email Address" class="border px-4 py-3 rounded-lg" />
+        <textarea required name="message" placeholder="Your Message" class="border px-4 py-3 rounded-lg md:col-span-2 h-32"></textarea>
+        <button class="bg-teal-600 text-white py-3 rounded-lg md:col-span-2 hover:bg-teal-700 lift">Send Message</button>
+      </form>
+    </section>
+
+    <footer class="text-center mt-8 py-6 border-t text-sm text-gray-500 no-print">
+      © 2025 Okoye Annabel Adanna. All Rights Reserved.
+    </footer>
+  </div>
+
+  <script>
+    // Small JS to reveal fade-in elements when in viewport for a nicer feel (no external lib)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+      // Also add visible class to trigger CSS animation once
+      el.classList.add('visible');
+    });
+  </script>
+</body>
+</html>
